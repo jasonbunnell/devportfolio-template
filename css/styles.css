@@ -183,7 +183,7 @@ footer {
 }
 
 .copyright {
-    padding-top: 20px
+
 }
 
 .copyright p {
@@ -211,28 +211,28 @@ footer {
 }
 
 .social {
-    text-align: right
+    text-align: left
 }
 
 .social ul {
-    margin: 5px 0 0 0;
+    margin: -20px 0 0 40px;
     padding: 0
 }
 
 .social li {
     display: inline-block;
-    font-size: 1.25em;
+    font-size: 1.5em;
     list-style: none
 }
 
 .social a {
     display: block;
-    color: #74808a;
+    color: #FFFFFF;
     padding: 10px
 }
 
 .social a:hover {
-    color: #3498db
+    color: #E2F4FF
 }
 
 .btn-rounded-white {
@@ -643,11 +643,11 @@ footer {
 #contact {
     padding: 50px 15px;
     background: #3498db;
-    text-align: center
+    text-align: left;
 }
 
 #contact h2 {
-    margin: 0 0 15px 0;
+    margin: 0 0 0 50px;
     color: #fff;
     font-weight: 500
 }
@@ -656,6 +656,13 @@ footer {
     margin: 0 0 15px 0;
     color: #fff;
     font-weight: 100
+}
+
+#contact p {
+    margin: 0 0 15px 50px;
+    color: #fff;
+    font-weight: 100
+
 }
 
 #contact-form {
@@ -832,7 +839,7 @@ footer {
         text-align: center
     }
     .social {
-        text-align: center
+        text-align: left;
     }
 }
 
