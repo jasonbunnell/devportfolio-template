@@ -761,6 +761,16 @@ footer {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)
 }
 
+.contact-card {
+    position: relative;
+    float: left;
+    max-width: 317px;
+    margin: 0 auto 30px auto;
+    overflow: hidden;
+    border-color: #fff;
+    border-radius: 8px
+}
+
 @media only screen and (max-width: 750px) {
     #experience-timeline:before,
     #experience-timeline:after {
